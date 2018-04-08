@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background: linear-gradient(90deg, #1299ff, #bc52fd);
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+
+
+h2 {
+    margin-left: 25%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+div p {
+    margin-left: 28%;
+}
+section:first-of-type img {
+    width: 200px;
+    height: 250px;
+
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+    font-family: Montserrat, ;
+}
