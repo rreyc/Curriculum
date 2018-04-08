@@ -28,9 +28,19 @@ section:first-of-type img {
     height: 250px;
 
 }
+section {
+    text-align: center;
+}
 
 p {
     font-size: 1.5em;
     color: white;
-    font-family: Montserrat, ;
+    font-family: Montserrat, serif ;
+}
+p strong {
+    color: grey;
+    font-size: 0.9em;
+}
+div:hover {
+    background: linear-gradient(90deg, #bc52fd, #1299ff);
 }
