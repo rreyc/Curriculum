@@ -1,35 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 body {
-    background: linear-gradient(90deg, #1299ff, #bc52fd);
+    background: url(fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
 
 }
-
+h1,h2 {
+    font-family: Lobster, Serif;
+}
 h1 {
     text-align: center;
     font-size: 3em;
     color: white;
 }
-
-
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 
 h2 {
-    margin-left: 25%;
+
     color: white;
     text-transform: uppercase;
     font-size: 2.5em;
+    text-align: center;
 }
 
 div p {
-    margin-left: 28%;
+    text-align: center;
 }
 section:first-of-type img {
-    width: 200px;
+    width: 220px;
     height: 250px;
 
 }
 section {
     text-align: center;
+    margin: 0px;
 }
 
 p {
@@ -41,6 +51,11 @@ p strong {
     color: grey;
     font-size: 0.9em;
 }
-div:hover {
-    background: linear-gradient(90deg, #bc52fd, #1299ff);
+section a {
+    background-color: #27acac;
+    border-radius: 5px;
+    padding: 5px;
+}
+section a:hover {
+    background-color: #32dcdc;
 }
